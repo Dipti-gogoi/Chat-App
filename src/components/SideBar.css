@@ -1,0 +1,26 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+button.rectangular {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgb(0, 128, 128);
+  outline: none;
+  transition: 0.2s all;
+}
+
+button.rectangular:hover {
+  transform: scale(1.1);
+}

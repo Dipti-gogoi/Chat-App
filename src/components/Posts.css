@@ -1,0 +1,19 @@
+.post {
+  display: flex;
+  justify-content: space-between;
+}
+.user {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  color: blue;
+}
+.date {
+  font-size: medium;
+  font-family: initial;
+  color: gray;
+}
+.content {
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: brown;
+}
